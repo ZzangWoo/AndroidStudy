@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="20dp"
+    android:orientation="vertical">
+
+    <TableRow android:layout_weight="1">
+
+        <EditText
+            android:id="@+id/numEditText1"
+            android:hint="@string/numEditText1"
+            android:layout_span="5"
+            android:layout_weight="1"/>
+
+    </TableRow>
+
+    <TableRow android:layout_weight="1">
+
+        <EditText
+            android:id="@+id/numEditText2"
+            android:hint="@string/numEditText2"
+            android:layout_span="5"
+            android:layout_weight="1"/>
+
+    </TableRow>
+
+    <TableRow android:layout_weight="1">
+
+        <Button
+            android:id="@+id/num0"
+            android:text="@string/num0"
+            android:layout_weight="1"
+            android:onClick="onClick"/>
+
+        <Button
+            android:id="@+id/num1"
+            android:text="@string/num1"
+            android:layout_weight="1"
+            android:onClick="onClick"/>
+
+        <Button
+            android:id="@+id/num2"
+            android:text="@string/num2"
+            android:layout_weight="1"
+            android:onClick="onClick"/>
+
+        <Button
+            android:id="@+id/num3"
+            android:text="@string/num3"
+            android:layout_weight="1"
+            android:onClick="onClick"/>
+
+        <Button
+            android:id="@+id/num4"
+            android:text="@string/num4"
+            android:layout_weight="1"
+            android:onClick="onClick"/>
+
+    </TableRow>
+
+    <TableRow android:layout_weight="1">
+
+        <Button
+            android:id="@+id/num5"
+            android:text="@string/num5"
+            android:layout_weight="1"
+            android:onClick="onClick"/>
+
+        <Button
+            android:id="@+id/num6"
+            android:text="@string/num6"
+            android:layout_weight="1"
+            android:onClick="onClick"/>
+
+        <Button
+            android:id="@+id/num7"
+            android:text="@string/num7"
+            android:layout_weight="1"
+            android:onClick="onClick"/>
+
+        <Button
+            android:id="@+id/num8"
+            android:text="@string/num8"
+            android:layout_weight="1"
+            android:onClick="onClick"/>
+
+        <Button
+            android:id="@+id/num9"
+            android:text="@string/num9"
+            android:layout_weight="1"
+            android:onClick="onClick"/>
+
+    </TableRow>
+
+    <TableRow android:layout_weight="1">
+
+        <Button
+            android:id="@+id/plusButton"
+            android:text="@string/plus"
+            android:layout_span="5"
+            android:layout_weight="1"/>
+
+    </TableRow>
+
+    <TableRow android:layout_weight="1">
+
+        <Button
+            android:id="@+id/minusButton"
+            android:text="@string/minus"
+            android:layout_span="5"
+            android:layout_weight="1"/>
+
+    </TableRow>
+
+    <TableRow android:layout_weight="1">
+
+        <Button
+            android:id="@+id/mulButton"
+            android:text="@string/mul"
+            android:layout_span="5"
+            android:layout_weight="1"/>
+
+    </TableRow>
+
+    <TableRow android:layout_weight="1">
+
+        <Button
+            android:id="@+id/divButton"
+            android:text="@string/div"
+            android:layout_span="5"
+            android:layout_weight="1"/>
+
+    </TableRow>
+
+    <TableRow android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/resultText"
+            android:layout_weight="1"
+            android:text="@string/textView"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_span="5"
+            android:textColor="#FF0000"
+            android:gravity="center"/>
+
+    </TableRow>
+
+</TableLayout>

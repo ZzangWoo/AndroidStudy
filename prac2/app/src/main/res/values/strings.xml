@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">prac2</string>
+
+    <string name="numEditText1">숫자 1</string>
+    <string name="numEditText2">숫자 2</string>
+
+    <string name="num0">0</string>
+    <string name="num1">1</string>
+    <string name="num2">2</string>
+    <string name="num3">3</string>
+    <string name="num4">4</string>
+    <string name="num5">5</string>
+    <string name="num6">6</string>
+    <string name="num7">7</string>
+    <string name="num8">8</string>
+    <string name="num9">9</string>
+
+    <string name="plus">더하기</string>
+    <string name="minus">빼기</string>
+    <string name="mul">곱하기</string>
+    <string name="div">나누기</string>
+
+    <string name="textView">계산 결과</string>
+</resources>
