@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:layout_margin="10dp"
+            android:hint="@string/hint1"
+            android:gravity="center"
+            android:id="@+id/editText1"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:layout_margin="10dp"
+            android:hint="@string/hint2"
+            android:gravity="center"
+            android:id="@+id/editText2"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/strBtn1"
+            android:textSize="20sp"
+            android:layout_margin="5dp"
+            android:id="@+id/plusButton"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/strBtn2"
+            android:textSize="20sp"
+            android:layout_margin="5dp"
+            android:id="@+id/minusButton"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/strBtn3"
+            android:textSize="20sp"
+            android:layout_margin="5dp"
+            android:id="@+id/mulButton"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/strBtn4"
+            android:textSize="20sp"
+            android:layout_margin="5dp"
+            android:id="@+id/divButton"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="결과 나올 부분"
+            android:singleLine="true"
+            android:textSize="35sp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text=""
+            android:id="@+id/resultText"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
